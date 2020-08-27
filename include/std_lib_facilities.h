@@ -43,7 +43,6 @@ cleanup removing support for ancient compilers
 #include <unordered_map>
 #include <vector>
 
-
 //------------------------------------------------------------------------------
 
 typedef long Unicode;

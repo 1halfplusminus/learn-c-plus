@@ -5,6 +5,7 @@
         "editor.defaultFormatter": "xaver.clang-format"
     },
     "files.associations": {
+        "*.js": "javascriptreact",
         "cctype": "cpp",
         "cmath": "cpp",
         "concepts": "cpp",
@@ -62,7 +63,11 @@
         "xlocmes": "cpp",
         "xlocmon": "cpp",
         "xloctime": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "numeric": "cpp",
+        "set": "cpp",
+        "xtree": "cpp",
+        "ratio": "cpp"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
