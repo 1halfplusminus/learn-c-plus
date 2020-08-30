@@ -45,3 +45,7 @@ add_executable(1_4_Exercice_5 4_exercice_5)
 project(1_4_Exercice_6)
 
 add_executable(1_4_Exercice_6 4_exercice_6)
+
+project(1_4_Exercice_7)
+
+add_executable(1_4_Exercice_7 4_exercice_7)

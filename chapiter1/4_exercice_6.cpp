@@ -5,7 +5,7 @@
 int main()
 {
     unordered_map<string, string> spell_outs;
-    vector<string> letters = {
+    vector<string> valid_numbers = {
         "1",
         "2",
         "3",
@@ -15,17 +15,7 @@ int main()
         "7",
         "8",
         "9"};
-    vector<string> words = {
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"};
-    vector<string> values = {
+    vector<string> numbers_spellout = {
         "one",
         "two",
         "three",
@@ -35,9 +25,9 @@ int main()
         "seven",
         "eight",
         "nine"};
-    std::for_each(letters.begin(), letters.end(), [idx = 0, &spell_outs, values](string i) mutable {
-        spell_outs.insert({i, values[idx]});
-        spell_outs.insert({values[idx], i});
+    std::for_each(valid_numbers.begin(), valid_numbers.end(), [idx = 0, &spell_outs, numbers_spellout](string i) mutable {
+        spell_outs.insert({i, numbers_spellout[idx]});
+        spell_outs.insert({numbers_spellout[idx], i});
         ++idx;
     });
     string input;
